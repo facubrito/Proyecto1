@@ -1,0 +1,42 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(0, 89, 255);
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.219); 
+}
+#poesia {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+    font-size: large;
+    }
+    .estiloespecial {
+        color: brown;
+        font-size: 30px;
+    }
+header {
+    background-color: rgb(238, 255, 0);
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid; 
+    border-radius: 30px;
+}
+footer {
+    background-color: gray
+}
+#fotogatito {
+    margin: 20px;
+    border: 30px solid; 
+    width: 100px;
+    height: auto;
+}
+.texto {
+    background-color: beige;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
