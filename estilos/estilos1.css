@@ -35,20 +35,39 @@ footer {
 .texto {
     background-color: beige;
     width: 300px;
-    height: 100px;
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: blueviolet;
+    font-size: 20px;
 }
-.descripcion {
-    color: black;
-    font-size: 18px;    
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    display: block;
-    clear: both;
-    text-align: left;
-    white-space: nowrap;
+.boton {
+    width: 134px;
+    height: 37px;
+    border-radius: 30px;
+    background: #AC1C10;
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+}
+.boton a {
+    color: white;
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#fotoprincipal {
+    width: 50%;
+    height: auto;
+}
+.contenedor {
+    background-color: black;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+p {
+    font-size: 0.5em;
 }
